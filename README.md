@@ -74,9 +74,9 @@
 
 ## ライセンス
 
-[MIT License](LICENSE) (必要に応じてライセンスファイルを作成・指定してください)
+[MIT License](LICENSE.txt)
 
 ---
 
-開発者: [あなたの名前や組織名]
-連絡先: [メールアドレスやGitHubプロフィールへのリンクなど]
+開発者: yuki igarashi
+連絡先: <https://github.com/rasshii>
