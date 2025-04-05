@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "自動「続ける」入力",
+  "version": "1.0",
+  "description": "特定の文言が表示されたら、フォームに「続ける」と入力して送信します。",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "自動「続ける」入力実行"
+  }
+}
