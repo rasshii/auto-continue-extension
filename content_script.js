@@ -6,9 +6,9 @@
   // --- 設定項目 (ここを対象のウェブページに合わせて変更) ---
   const searchText = "特定の文言"; // ページ内で探すテキスト
   const inputText = "続ける"; // 自動入力するテキスト
-  const formSelector = "#your-form-id"; // 対象フォームのCSSセレクタ
-  const inputSelector = "#your-input-id"; // 対象入力フィールドのCSSセレクタ
-  const submitButtonSelector = "button[type='submit']"; // 送信ボタンのCSSセレクタ
+  const formSelector = ".contenteditable"; // 対象フォームのCSSセレクタ
+  const inputSelector = ".data-placeholder"; // 対象入力フィールドのCSSセレクタ
+  const submitButtonSelector = "button[type='button']"; // 送信ボタンのCSSセレクタ
   // ----------------------------------------------------------
 
   let visibleMatchingElements = []; // 画面内に表示されている、searchTextを含む要素を格納する配列
